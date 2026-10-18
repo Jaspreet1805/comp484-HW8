@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Color Palette
+#1B263B - color 1
+#415A77 - color 2
+#E0E1DD - color 3
+#FFFFFF - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    /*background: lightblue;*/
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #1B263B;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background-color: #1B263B;
+    color: #FFFFFF;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #415A77;
+    color: #FFFFFF;
+     text-align: center;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+    background-color: #FFFFFF;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background-color: #E0E1DD;
+}
