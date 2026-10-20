@@ -21,6 +21,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #1B263B;
+
+    padding-top: 50px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #1B263B;
 }
 
 .content-wrap {
@@ -63,6 +69,25 @@ h3 {
     min-height: 225px;
 }
 
+nav {
+    background-color: #415A77;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+
+nav a {
+    color: #FFFFFF;
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #1B263B;
+}
 
 /* Header & Footer 
 ------------------------------------*/
@@ -104,5 +129,16 @@ footer a {
 /* Education
 ------------------------------------*/
 .education {
-    background-color: #E0E1DD;
+    background:
+        linear-gradient(
+            rgba(224, 225, 221, 0.85),
+            rgba(224, 225, 221, 0.85)
+        ),
+        url("../images/background.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
 }
